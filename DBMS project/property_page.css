@@ -1,0 +1,87 @@
+/*body {
+    background-image: url("hostel1.jpg"); 
+    background-size: cover;
+    background-position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}*/
+.container {
+    width: 400px;
+    margin: 100px auto;
+    background-color: rgba(244, 224, 136, 0.9); 
+    padding: 20px;
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+body {
+    background-image: url("hostel1.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+h2, h4 {
+    text-align: center;
+    margin-bottom: 20px; /* Added margin-bottom for h2 and h4 */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"], 
+.form-group select, 
+.form-group textarea { /* Added styling for select and textarea */
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.form-group input[type="submit"] {
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #3eccfff2;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+    transition: background-color 0.3s ease; /* Added transition effect */
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+select {
+    appearance: none; /* Remove default appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff; /* Set background color */
+    border: 1px solid #ccc; /* Add border */
+    padding: 8px 12px; /* Add padding */
+    border-radius: 4px; /* Add border radius */
+    font-size: 16px; /* Set font size */
+    color: #333; /* Set text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
